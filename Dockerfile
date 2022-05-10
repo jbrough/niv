@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["server.py"]
+CMD ["python3", "./server.py"]

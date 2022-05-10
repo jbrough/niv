@@ -2,4 +2,4 @@
 
 up:
 	rm -rf data
-	docker-compose up
+	docker-compose up --build
