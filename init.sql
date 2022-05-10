@@ -1,7 +1,7 @@
-CREATE TABLE IF NOT EXISTS jobs (
+CREATE TABLE IF NOT EXISTS runs (
   id serial primary key,
   name text NOT NULL,
-  start_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
-  end_at timestamp with time zone,
+  start_at bigint,
+  end_at bigint,
   status int default 0
 );
